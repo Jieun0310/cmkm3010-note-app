@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 export default function App() {
   return (
@@ -8,7 +9,7 @@ export default function App() {
         <button>쓰기</button>
       </div>
       <ul className="list">
-        <li>
+        <li className="note">
           <h2>노트 제목...</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -24,7 +25,7 @@ export default function App() {
             </div>
           </div>
         </li>
-        <li>
+        <li className="note">
           <h2>노트 제목...</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -40,7 +41,7 @@ export default function App() {
             </div>
           </div>
         </li>
-        <li>
+        <li className="note">
           <h2>노트 제목...</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -56,7 +57,7 @@ export default function App() {
             </div>
           </div>
         </li>
-        <li>
+        <li className="note">
           <h2>노트 제목...</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -72,7 +73,7 @@ export default function App() {
             </div>
           </div>
         </li>
-        <li>
+        <li className="note">
           <h2>노트 제목...</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -88,7 +89,7 @@ export default function App() {
             </div>
           </div>
         </li>
-        <li>
+        <li className="note">
           <h2>노트 제목...</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
