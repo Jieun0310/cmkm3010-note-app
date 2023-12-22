@@ -5,7 +5,7 @@ export default function Header() {
     <div>
       <div className="header">
         <Link to={'/'}>
-          <h1>📗노트</h1>
+          <h1>📗나의 노트</h1>
         </Link>
         <Link to={'/Write'}>
           <button>쓰기</button>
